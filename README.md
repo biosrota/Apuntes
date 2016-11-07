@@ -19,3 +19,20 @@ sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo
 ```sh
 sudo apt-get install gdebi
 ```
+### unstalar aplicaciones
+
+```sh
+sudo apt-get install htop
+sudo apt-get install libreoffice
+sudo apt-get install transmission-gtk
+```
+equivale a:
+
+```sh
+sudo apt-get install transmission-gtk htop libreoffice
+```
+### Ejecutar *scrips*
+
+ ```sh
+ bash nombre_scrips.sh
+ ```
